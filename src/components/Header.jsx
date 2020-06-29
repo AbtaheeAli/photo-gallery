@@ -6,7 +6,7 @@ export default class Header extends Component {
       <header className="jumbotron jumbotron-fluid">
         <div className="container">
           <Link to="/">
-            <h1 className="display-4">Get To Know Me!</h1>{' '}
+            <h1 className="display-4">A Snapshot Into My Life!</h1>{' '}
           </Link>
           <p class="lead">
             A photo gallery that shows a snippet of who I am. From my favorite
