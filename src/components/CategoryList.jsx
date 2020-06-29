@@ -10,7 +10,7 @@ class Category extends Component {
           <h2>
             <Link to={`/${this.props.categoryName}`}>{this.props.title}</Link>
           </h2>
-          <p className="text">{this.props.description}</p>
+          <p className="text">{this.props.text}</p>
         </div>
         <img
           class="card-img-top"
@@ -49,7 +49,7 @@ export default class CategoryList extends Component {
                 key={index}
                 categoryName={categoryName}
                 title={categoryDetails.title}
-                description={categoryDetails.text}
+                text={categoryDetails.text}
                 imageURL={firstPhoto.imageURL}
               />
             )
