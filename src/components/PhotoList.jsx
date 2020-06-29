@@ -1,6 +1,6 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
-import Gallery from '../gallery.json'
+import gallery from '../gallery.json'
 
 class PhotoListPhoto extends Component {
   render() {
@@ -36,7 +36,7 @@ export class PhotoList extends Component {
     const theNameOfTheCategoryWeWantToLookAt = this.props.match.params
       .theNameOfTheCategoryWeWantToLookAt
 
-    const category = Gallery[theNameOfTheCategoryWeWantToLookAt]
+    const category = gallery[theNameOfTheCategoryWeWantToLookAt]
     const categoryPhotos = category.photos
 
     return (

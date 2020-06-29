@@ -5,7 +5,7 @@ import CategoryList from './components/CategoryList'
 import { PhotoList } from './components/PhotoList'
 import { PhotoDetails } from './components/PhotoDetails'
 
-class App extends Component {
+export class App extends Component {
   render() {
     return (
       <Router>
@@ -28,3 +28,5 @@ class App extends Component {
     )
   }
 }
+
+export default App

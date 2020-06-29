@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Gallery from '../gallery.json'
+import gallery from '../gallery.json'
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
 
 class Category extends Component {
@@ -24,7 +24,7 @@ class Category extends Component {
 
 export default class CategoryList extends Component {
   render() {
-    const categoryNames = Object.keys(Gallery)
+    const categoryNames = Object.keys(gallery)
 
     return (
       <div>
@@ -41,7 +41,7 @@ export default class CategoryList extends Component {
         </section>
         <section className="cards d-flex flex-row justify-content-center flex-wrap">
           {categoryNames.map((categoryName, index) => {
-            const categoryDetails = Gallery[categoryName]
+            const categoryDetails = gallery[categoryName]
             const firstPhoto = categoryDetails.photos[0]
 
             return (

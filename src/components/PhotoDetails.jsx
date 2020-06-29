@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import Gallery from '../gallery.json'
+import gallery from '../gallery.json'
 import { BrowserRouter as Router, Link, Route, Switch } from 'react-router-dom'
 
 export class PhotoDetails extends Component {
@@ -9,7 +9,7 @@ export class PhotoDetails extends Component {
 
     const arrayIndexOfThePhoto = this.props.match.params.arrayIndexOfThePhoto
 
-    const category = Gallery[theNameOfTheCategoryWeWantToLookAt]
+    const category = gallery[theNameOfTheCategoryWeWantToLookAt]
 
     const categoryPhotos = category.photos
 
