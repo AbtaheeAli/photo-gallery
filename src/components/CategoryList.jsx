@@ -30,9 +30,9 @@ export default class CategoryList extends Component {
       <div>
         <section>
           <nav aria-label="breadcrumb">
-            <ol class="breadcrumb bg-light">
-              <li class="breadcrumb-item">
-                <Link class="breadcrumb-item" to="/">
+            <ol className="breadcrumb">
+              <li className="breadcrumb-item">
+                <Link className="breadcrumb-item" to="/">
                   Home
                 </Link>
               </li>
@@ -49,7 +49,7 @@ export default class CategoryList extends Component {
                 key={index}
                 categoryName={categoryName}
                 title={categoryDetails.title}
-                description={categoryDetails.description}
+                description={categoryDetails.text}
                 imageURL={firstPhoto.imageURL}
               />
             )
