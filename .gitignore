@@ -21,3 +21,6 @@
 *-error.log
 *-debug.log
 
+
+# Local Netlify folder
+.netlify
