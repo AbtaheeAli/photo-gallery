@@ -1,0 +1,50 @@
+{
+  "cavaliers": {
+    "title": "Cavalier King Charles Spaniel",
+    "text": "Cavalier King Charles Spaniel is a royal dog and known to be the most affectionate small dog in the whole world.",
+    "photos": [
+      {
+        "title": "BlenHeim Cavalier Posing For The Camera",
+        "imageURL": "https://www.petfirst.com/wp-content/uploads/2018/03/Breed-Hero-Cavalier-King-Charles-Spaniel-1200x1200.jpg",
+        "sourceURL": "https://www.petfirst.com/breed-spotlights/cavalier-king-charles-spaniel/"
+      },
+      {
+        "title": "Tri-Color Cavalier Bathing In The Sun",
+        "imageURL": "https://s3.amazonaws.com/cdn-origin-etr.akc.org/wp-content/uploads/2017/11/07130300/Cavalier-King-Charles-Spaniel_Puppy_Grass.jpg",
+        "sourceURL": "https://www.akc.org/dog-breeds/cavalier-king-charles-spaniel/"
+      },
+      {
+        "title": "Fun in The Sand With A Ruby Cavalier",
+        "imageURL": "https://imgc.artprintimages.com/img/print/cavalier-king-charles-spaniel-puppy-14-weeks-ruby-running-on-beach-jumping_u-l-q11px8x0.jpg?h=550&p=0&w=550&background=fbfbfb",
+        "sourceURL": "https://www.art.com/products/p44830688170-sa-i10332425/petra-wegner-cavalier-king-charles-spaniel-puppy-14-weeks-ruby-running-on-beach-jumping.htm?upi=Q11PX8X0"
+      },
+      {
+        "title": "Best Friends Forever!",
+        "imageURL": "https://static.wixstatic.com/media/d948eb_cd3204fef4b946e8a866a84c09eb9145~mv2.jpg",
+        "sourceURL": "https://carijg05.wixsite.com/creeksidecavaliers/single-post/2017/01/17/The-Cavalier-King-Charles-Spaniel"
+      }
+    ]
+  },
+  "dance": {
+    "title": "Dance",
+    "text": "I have been dancing since I was five years-old. I typically do hip-hop, but like to get in touch with my cultural roots by performing Bhangra.",
+    "photos": [
+      {
+        "title": "Dancing At a Bangladeshi Cultural Show - 2013",
+        "imageURL": "https://scontent-mia3-1.xx.fbcdn.net/v/t1.0-9/1185038_659947824029881_1885938854_n.jpg?_nc_cat=100&_nc_sid=05277f&_nc_ohc=ZJFqf_jJuzMAX9pduZj&_nc_ht=scontent-mia3-1.xx&oh=0a7f3dc51112ff938f7b30e6ef980010&oe=5F2029E5",
+        "sourceURL": "facebook.com"
+      },
+
+      {
+        "title": "Performing with Men of Key at a high school competition - 2014",
+        "imageURL": "https://scontent-mia3-2.xx.fbcdn.net/v/t31.0-8/1606254_728966023794727_1177162557_o.jpg?_nc_cat=102&_nc_sid=05277f&_nc_ohc=rORhs2kbfz8AX-vF38c&_nc_ht=scontent-mia3-2.xx&oh=87a4daff0cca2db78aa7b63a298f119d&oe=5F1DE319",
+        "sourceURL": "https://www.instagram.com/p/BnW2QrWDaky"
+      },
+      {
+        "title": "Performing at UF Visa Show with the Gator Bhangra Team - 2018",
+        "imageURL": "https://lh3.googleusercontent.com/42NYB31Zo-xRY_CdSiR9L-z476X8vQylw5g-Ak9IrdevAa_MLqQcjIshTZaIiPEsS8gw7tltVm6n7BilloYI34LbJ6KcKAlvz_T9lqlaw87lIMCP7kik9I6ElluOxvYEs6o-bgY3L-PTwTj9mXqURXX8guJCkTOxwAGEwCBLinISTuaBJUPO8g80cLbQHfeS7mGbECeLIVuFDD_ayg9inQ5XtfMH3qWOddAJ49A_UkH1GSa7zTIkjc9b59v6l6fMZPCJTQPIfAZvft25GhaA8kJvJwo8MhfVyx81B_8fNCOfABebCkxrMdeYhRXKHPJvBbeRKhG9a5P0FVWY1geGJYkJxux3IgZP84idVINhis199j9-RxEQALwODFsDp1N1CfuxkoSLawZ7JyzozB3wTdCibv-DeA_kiNUlqmcRLIq1YH9wqNqNxIj650BtC--XhkuX9uB8bTxL0_-gdTojzQeYnsi2bZ1GUMhfi-h3DhkuZB8C6E9U7UBUpV-9byGB6TQdutLlG9QDxUsGj769kAWtF_yUeYgqjfnINMOm72uTSiwKpZKnSwg0nxbOeK7a22KhggHYN1T88_4j-L7EGeY21vIFK6YSLwRK-yfqpyN8Pu9tqriDHP9mX2WR4S5hqHnk506TdDQWjsRLYv4nt0xisKSAEHjrDKRNXsJPy21ZUIuJetH-tjC29b-14g=w2048-h1361-no?authuser=0",
+        "sourceURL": "https://www.google.com/photos/about/"
+      }
+    ]
+  }
+}
