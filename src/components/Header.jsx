@@ -10,7 +10,7 @@ export default class Header extends Component {
           </Link>
           <p class="lead">
             A photo gallery that shows a snippet of who I am. From my favorite
-            animal to my favorite hobby. Enjoy!
+            dog breed to my favorite hobby. Enjoy!
           </p>
         </div>
       </header>
