@@ -8,12 +8,12 @@ This application consists of:
 
 - The application renders each photo in the given category on the photo list page with a thumbnail-sized version of the photos.
 
-- The applications renders a large version of the photo on the photo details page.
+- The application renders a large version of the photo on the photo details page.
 
 - Added bread crumb navigation.
 
 - Added a thumbnail to the first photo in each category to the home page.
 
-- Application uses react router to navigate through pages.
+- The application uses react router to navigate through pages.
 
-- Application is dynamic using the data that is in the JSON file.
+- The application is dynamic using the data that is in the JSON file.
