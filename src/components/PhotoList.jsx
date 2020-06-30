@@ -20,6 +20,7 @@ class PhotoListPhoto extends Component {
             <figcaption>
               <Link
                 to={`/${this.props.theNameOfTheCategoryWeWantToLookAt}/${this.props.index}`}
+                style={{ color: '#9f2042' }}
               >
                 {this.props.photo.title}
               </Link>
@@ -63,7 +64,7 @@ export class PhotoList extends Component {
           </nav>
         </section>
 
-        <h3 className="title pl-4">{category.title}</h3>
+        <h3 className="title pl-4">{category.title} </h3>
         <h6 className="subtitle pl-4">{category.text}</h6>
         <section className="cards d-flex flex-row justify-content-center flex-wrap">
           {categoryPhotos.map((photo, index) => (

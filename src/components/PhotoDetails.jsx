@@ -53,7 +53,9 @@ export class PhotoDetails extends Component {
             <img src={photo.imageURL} alt={photo.title} />
           </figure>
           <p className="is-small">
-            <a href={photo.sourceURL}>Source</a>
+            <a href={photo.sourceURL} style={{ color: '#9f2042' }}>
+              Source
+            </a>
           </p>
         </div>
       </div>
