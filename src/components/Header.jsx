@@ -7,7 +7,7 @@ export default class Header extends Component {
         <div className="container">
           <Link to="/">
             <h1 className="header display-4" style={{ color: '#9f2042' }}>
-              A Snapshot Into My Life
+              A Snapshot Of My Life
             </h1>
           </Link>
           <p class="lead">
