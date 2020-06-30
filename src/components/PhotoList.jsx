@@ -64,8 +64,12 @@ export class PhotoList extends Component {
           </nav>
         </section>
 
-        <h3 className="title pl-4">{category.title} </h3>
-        <h6 className="subtitle pl-4">{category.text}</h6>
+        <h3 className="title d-flex flex-row justify-content-center flex-wrap">
+          {category.title}{' '}
+        </h3>
+        <h6 className="subtitle d-flex flex-row justify-content-center flex-wrap">
+          {category.text}
+        </h6>
         <section className="cards d-flex flex-row justify-content-center flex-wrap">
           {categoryPhotos.map((photo, index) => (
             <PhotoListPhoto
