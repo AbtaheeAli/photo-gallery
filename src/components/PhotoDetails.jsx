@@ -48,11 +48,13 @@ export class PhotoDetails extends Component {
           </nav>
         </section>
         <div className="container">
-          <h3 className="title">{photo.title}</h3>
-          <figure className="image">
+          <h3 className="title d-flex flex-row justify-content-center flex-wrap">
+            {photo.title}
+          </h3>
+          <figure className="image d-flex flex-row justify-content-center flex-wrap">
             <img src={photo.imageURL} alt={photo.title} />
           </figure>
-          <p className="is-small">
+          <p className="imgURL d-flex flex-row justify-content-center flex-wrap">
             <a href={photo.sourceURL} style={{ color: '#9f2042' }}>
               Source
             </a>
