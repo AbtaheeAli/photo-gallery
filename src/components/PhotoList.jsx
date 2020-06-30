@@ -41,17 +41,20 @@ export class PhotoList extends Component {
 
     return (
       <div>
-        <section>
+        <section className="d-flex justify-content-center">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb bg-light">
               <li class="breadcrumb-item">
-                <Link to="/">Home</Link>
+                <Link to="/" style={{ color: '#9f2042' }}>
+                  Home
+                </Link>
               </li>
               <li class="breadcrumb-item active" aria-current="page">
                 <Link
                   class="breadcrumb-item active"
                   aria-current="page"
                   to={`/${theNameOfTheCategoryWeWantToLookAt}`}
+                  style={{ color: '#9f2042' }}
                 >
                   {category.title}
                 </Link>

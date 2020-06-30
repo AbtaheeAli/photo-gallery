@@ -33,11 +33,15 @@ export default class CategoryList extends Component {
 
     return (
       <div>
-        <section>
+        <section className="d-flex justify-content-center">
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item">
-                <Link className="breadcrumb-item" to="/">
+                <Link
+                  className="breadcrumb-item"
+                  to="/"
+                  style={{ color: '#9f2042' }}
+                >
                   Home
                 </Link>
               </li>

@@ -17,16 +17,19 @@ export class PhotoDetails extends Component {
 
     return (
       <div>
-        <section>
+        <section className="d-flex justify-content-center">
           <nav aria-label="breadcrumb">
             <ol class="breadcrumb bg-light">
               <li class="breadcrumb-item">
-                <Link to="/">Home</Link>
+                <Link to="/" style={{ color: '#9f2042' }}>
+                  Home
+                </Link>
               </li>
               <li class="breadcrumb-item">
                 <Link
                   class="breadcrumb-item"
                   to={`/${theNameOfTheCategoryWeWantToLookAt}`}
+                  style={{ color: '#9f2042' }}
                 >
                   {category.title}
                 </Link>
@@ -36,6 +39,7 @@ export class PhotoDetails extends Component {
                   class="breadcrumb-item active"
                   aria-current="page"
                   to={`/${theNameOfTheCategoryWeWantToLookAt}/${arrayIndexOfThePhoto}`}
+                  style={{ color: '#9f2042' }}
                 >
                   {photo.title}
                 </Link>
