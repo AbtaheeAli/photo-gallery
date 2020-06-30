@@ -7,8 +7,13 @@ class Category extends Component {
     return (
       <div className="card">
         <div className="card-body">
-          <h2>
-            <Link to={`/${this.props.categoryName}`}>{this.props.title}</Link>
+          <h2 className="title">
+            <Link
+              to={`/${this.props.categoryName}`}
+              style={{ color: '#9f2042' }}
+            >
+              {this.props.title}
+            </Link>
           </h2>
           <p className="text">{this.props.text}</p>
         </div>

@@ -1,4 +1,6 @@
 @import 'bootstrap';
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Pacifico&display=swap');
+
 :root {
   font: 16px / 1 sans-serif;
 }
@@ -18,10 +20,18 @@ body {
   width: 30rem;
 }
 
+h2 {
+  font-family: 'Abril Fatface', cursive;
+}
+
 .jumbotron {
   background-image: linear-gradient(to right, #ddfff7, #4281a4);
 }
 
 .breadcrumb {
   background: rgb(248, 249, 250);
+}
+
+.header {
+  font-family: 'Abril Fatface', cursive;
 }
