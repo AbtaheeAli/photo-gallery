@@ -1,5 +1,10 @@
 Created a front-end application of a photo gallery of items that describe who I am as an individual
 
+<img width="1166" alt="Screen Shot 2020-07-05 at 10 43 57 PM" src="https://user-images.githubusercontent.com/62678918/86550669-06f09200-bf11-11ea-8e99-3499ee4bfd46.png">
+
+Languages and technologies used: HTML, CSS, Flexbox, Breadcrumb, JavaScript, ReactJS, & ReactJS Router
+
+
 This application consists of:
 
 - Five components: App, CategoryList, PhotoList, PhotoDetail, & Header.
